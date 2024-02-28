@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- TELA DO JOGO -->
+    <div class="game">
+
+        <img src="./assets/background.png" alt="" class="background">
+        <img src="./assets/super-sonic-sonic-the-hedgehog.gif" alt="" class="sonic">
+        <button class="start" onclick="startGame()" >Iniciar</button>        
+        <div class="score">
+            <span class="score_title"></span>
+            <span class="score_val"></span>
+        </div>
+    </div>
+
+    <!-- TELA DE GAME OVER -->
+    <div class="gameover">
+        <h1>Game Over</h1> 
+        <button onclick="restartGame()">Voltar para o inicio</button>
+    </div>
+    </div>
+</body>
+</html>

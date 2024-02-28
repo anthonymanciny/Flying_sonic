@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background{
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    animation: background-animation 20s infinite linear;
+}
+
+@keyframes background-animation{
+    from {
+        right: 100%;
+    }
+    to {
+        right: -100%;
+    }
+}
+
+.sonic{
+    width: 150px;
+    position: absolute;
+    bottom: 0;
+}
